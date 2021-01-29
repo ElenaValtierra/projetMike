@@ -1,0 +1,20 @@
+    body {
+        margin-top: 25%;
+        height: 100vh;
+        background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .centrer {
+        text-align: center;
+        width: 10vw;
+        height: 10vw;
+        margin-left: 85vh;
+        border-style: solid;
+        border: 3px solid black;
+        border-radius: 5px;
+    }
+    
+    .button {
+        padding-top: 20px;
+    }

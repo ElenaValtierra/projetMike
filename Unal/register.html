@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inscription</title>
+    <link rel="stylesheet" href="inscription.css">
+</head>
+
+<body>
+    <div class="centrer">
+        <form action="php/register.php" method="POST" name="register">
+            <div>
+                <p>nom</p>
+                <input type="nom" name="nom" id="nom">
+            </div>
+            <div>
+                <p>prenom</p>
+                <input type="prenom" name="prenom" id="prenom">
+            </div>
+
+
+
+            <div>
+                <p>Email</p>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <p>mot de passe</p>
+                <input type="mp" name="mp" id="mp">
+            </div>
+            <div>
+                <br>
+
+                <div>
+                    <input type="radio" id="huey" name="drone" value="huey" checked>
+                    <label for="huey">Homme</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="dewey" name="drone" value="dewey">
+                    <label for="dewey"> Femme</label>
+                </div>
+
+                <br>
+                <button type="submit">Valider</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
